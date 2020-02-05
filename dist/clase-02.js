@@ -64,4 +64,11 @@ var arreglo;
 arreglo = ['Hello1', 'Hello2'];
 console.log(arreglo);
 var arreglo2 = [2, 'hello', true];
-//Tuplas: Nos permite definir variables que tengan un conjunto de datos
+//Arreglos con Generics
+var nombres;
+nombres = ['Jc', 'jC', 'JC'];
+//Tuplas: Nos permite definir variables que tengan un conjunto de datos. Estas tienen un orden en su contenido y debemos respetarlo
+var info = ['Juan', 28];
+var course = ['CSS', 100, '12/12/2025'];
+console.log(course);
+console.log(course[0]); //accediendo a una propiedad de la tupla

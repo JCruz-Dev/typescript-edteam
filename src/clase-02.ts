@@ -75,4 +75,12 @@ console.log(arreglo);
 
 let arreglo2: any[] = [2, 'hello', true];
 
-//Tuplas: Nos permite definir variables que tengan un conjunto de datos
+//Arreglos con Generics
+let nombres: Array<string>;
+nombres = ['Jc', 'jC', 'JC'];
+
+//Tuplas: Nos permite definir variables que tengan un conjunto de datos. Estas tienen un orden en su contenido y debemos respetarlo
+let info: [string, number] = ['Juan', 28];
+let course: [string, number, string] = ['CSS', 100, '12/12/2025'];
+console.log(course);
+console.log(course[0]); //accediendo a una propiedad de la tupla
