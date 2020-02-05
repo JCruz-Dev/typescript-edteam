@@ -28,3 +28,40 @@ var nombre = 'Juan';
 var apellido = 'Cruz';
 var nombreCompleto = nombre + " " + apellido;
 console.log(nombreCompleto);
+//Tipos especiales en Typescript
+// Tipo Any: cuando declaramos una variable y no le indicamos el tipo de dato o no sabemos el contenido que tendra
+var desconocido;
+var variablex;
+//Tipo void: Ejecuta una acción pero no retorna nada (especificar la ausencia de un retorno). Se utiliza mas en ambito de funcion
+var vacio;
+function mostrarContenido(curso) {
+    var mensaje = curso
+        ? "Bienvenido al curso " + curso
+        : "Suscribete al curso " + curso;
+    console.log(mensaje);
+}
+mostrarContenido('Angular');
+//Tipo never: Se usa en ambito de funcion y significa que nunca va a retornar un valor válido, digase un error o excepcion
+function mostrarError(error) {
+    throw new Error('Error en contenido en typescript: ' + error);
+}
+// mostrarError('Valor desconocido');
+//Funciones en Typescript
+function saludo(nombre) {
+    return 'Hola ' + nombre;
+}
+console.log(saludo('Juank'));
+//Parametros opcionales en las funciones colocando el signo de ?
+function mencionar(nombre) {
+    if (nombre)
+        return "@" + nombre + " te han mencionado!";
+    return 'No han mencionado a nadie';
+}
+console.log(mencionar('juan'));
+console.log(mencionar());
+//Arreglos en Typescript
+var arreglo;
+arreglo = ['Hello1', 'Hello2'];
+console.log(arreglo);
+var arreglo2 = [2, 'hello', true];
+//Tuplas: Nos permite definir variables que tengan un conjunto de datos
