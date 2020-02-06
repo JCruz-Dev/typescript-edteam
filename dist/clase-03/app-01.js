@@ -1,5 +1,6 @@
 "use strict";
-//Alias para tipos de datos
+// tipos de datos Union
+//Union Type
 var cursoNuevo; //esta variable puede recibir dos tipos de datos
 function obtenerCurso(curso) {
     return curso;

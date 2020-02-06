@@ -1,4 +1,6 @@
-//Alias para tipos de datos
+// tipos de datos Union
+
+//Union Type
 let cursoNuevo: string | number; //esta variable puede recibir dos tipos de datos
 
 function obtenerCurso(curso: string | number) {
