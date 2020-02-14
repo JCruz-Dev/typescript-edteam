@@ -3,7 +3,7 @@
  *
  * Este archivo ayuda al compilador con información sobre tipo de datos.
  */
-declare module 'lodash' {
-    //exporta los tipos que se usaran en la funcion que estaremos usando.
-    export function random(min: number, max: number): number;
-}
+// declare module 'lodash' {
+//     //exporta los tipos que se usaran en la funcion que estaremos usando.
+//     export function random(min: number, max: number): number;
+// }
